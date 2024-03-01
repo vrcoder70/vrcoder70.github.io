@@ -1,0 +1,11 @@
+.project-card {
+    border: 2px solid #ddd; /* Border around each project */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Add padding for better appearance */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .project-card:hover {
+    background-color: #f5f5f5; /* Change background color on hover */
+  }
+  
