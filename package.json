@@ -36,5 +36,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "homepage": "https://vrcoder70.github.io/VrajRana-TechPortfolio/",
+  "scripts": {
+    "deploy": "gh-pages -d build"
   }
 }
+
