@@ -1,6 +1,8 @@
 import React from 'react';
 import ASU from './ASU.jpg';
-import MSU from './MSU.png'
+import MSU from './MSU.png';
+import ASUTranscript from './Vraj Rana ASU Transcript.pdf';
+import MSUTracscript from './Vraj Rana MSU Transcript.pdf';
 
 function Education() {
     const mastersDegree = {
@@ -45,6 +47,7 @@ function Education() {
                     <h5 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{mastersDegree.universityName}</h5>
                     <h5 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>GPA: {mastersDegree.gpa} </h5>
                     <h6 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{mastersDegree.startDate} - {mastersDegree.endDate}</h6>
+                    <a href={ASUTranscript} download className="btn btn-secondary">Transcript</a>
                 </div>
                 </div>
             </div>
@@ -65,6 +68,7 @@ function Education() {
                     <h5 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{bachelorsDegree.universityName}</h5>
                     <h5 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>GPA: {bachelorsDegree.gpa}</h5>
                     <h6 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{bachelorsDegree.startDate} - {bachelorsDegree.endDate}</h6>
+                    <a href={MSUTracscript} download className="btn btn-secondary">Transcript</a>
                 </div>
                 </div>
             </div>

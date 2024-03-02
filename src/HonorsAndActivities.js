@@ -5,7 +5,7 @@ const HonorsAndActivities = () => {
     const honorsAndActivities = [
         {
             title: "Effectiveness of Do-In-Yourself Portable Air Cleaners in Reducing Exposure to Respiratory Aerosols in US Classrooms",
-            details: "Under Review with Science & Education Journal."
+            details: "Publication under review with Science & Education Journal."
         },
         {
             title: "Data Analysis and Data Visualization for Posters at AIDE Lab",
@@ -34,6 +34,10 @@ const HonorsAndActivities = () => {
         {
             title: "Software Developers Association",
             details: "Active participant, frequently attending meetings."
+        },
+        {
+            title: "First Jump Certification : Sky Dive",
+            details: "Received on March 21, 2023, for completing group and aerial training and performing a Tandem Skydive according to USPA Safety Requirements."
         }
     ];
 

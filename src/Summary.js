@@ -1,6 +1,6 @@
 import React from 'react';
 import Profile from './Profile-1.jpg';
-import Resume from './Resume.pdf'
+import Resume from './Resume.pdf';
 
 function Summary() {
   return (
