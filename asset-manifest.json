@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/VrajRana-TechPortfolio/static/css/main.002ea465.css",
-    "main.js": "/VrajRana-TechPortfolio/static/js/main.6c4bc4ff.js",
+    "main.css": "/VrajRana-TechPortfolio/static/css/main.aefea140.css",
+    "main.js": "/VrajRana-TechPortfolio/static/js/main.8280b992.js",
     "static/js/453.9b36bec1.chunk.js": "/VrajRana-TechPortfolio/static/js/453.9b36bec1.chunk.js",
+    "static/media/MSU.png": "/VrajRana-TechPortfolio/static/media/MSU.190ad34245a76760ff08.png",
     "static/media/Resume.pdf": "/VrajRana-TechPortfolio/static/media/Resume.873cff3a69558dbae97d.pdf",
-    "static/media/data-analyst.jpg": "/VrajRana-TechPortfolio/static/media/data-analyst.fb24031262d9f2c055b8.jpg",
+    "static/media/ASU.jpg": "/VrajRana-TechPortfolio/static/media/ASU.fb24031262d9f2c055b8.jpg",
+    "static/media/AIDE.jpg": "/VrajRana-TechPortfolio/static/media/AIDE.aa5d8391bd061ca19f11.jpg",
     "static/media/Profile-1.jpg": "/VrajRana-TechPortfolio/static/media/Profile-1.72f1c56c70901e854aa8.jpg",
     "index.html": "/VrajRana-TechPortfolio/index.html",
-    "main.002ea465.css.map": "/VrajRana-TechPortfolio/static/css/main.002ea465.css.map",
-    "main.6c4bc4ff.js.map": "/VrajRana-TechPortfolio/static/js/main.6c4bc4ff.js.map",
+    "main.aefea140.css.map": "/VrajRana-TechPortfolio/static/css/main.aefea140.css.map",
+    "main.8280b992.js.map": "/VrajRana-TechPortfolio/static/js/main.8280b992.js.map",
     "453.9b36bec1.chunk.js.map": "/VrajRana-TechPortfolio/static/js/453.9b36bec1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.002ea465.css",
-    "static/js/main.6c4bc4ff.js"
+    "static/css/main.aefea140.css",
+    "static/js/main.8280b992.js"
   ]
 }
