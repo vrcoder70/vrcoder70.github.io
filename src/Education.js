@@ -1,4 +1,6 @@
 import React from 'react';
+import ASU from './ASU.jpg';
+import MSU from './MSU.png'
 
 function Education() {
     const mastersDegree = {
@@ -18,7 +20,7 @@ function Education() {
     };
 
     return (
-        <section id="section2" className="py-5">
+        <section id="education" >
         <div className="container">
             <div className="row">
             <div className="col">
@@ -27,22 +29,42 @@ function Education() {
             </div>
             <div className="row">
             <div className="col-md-6">
-                <div className="mb-4">
-                <div>
-                    <h4>{mastersDegree.degreeName}</h4>
-                    <h5>{mastersDegree.universityName}</h5>
-                    <h5>GPA: {mastersDegree.gpa}</h5>
-                    <h6>{mastersDegree.startDate} - {mastersDegree.endDate}</h6>
+                <div className="mb-4"
+                    style={{ backgroundImage: `url(${ASU})`, 
+                    backgroundPosition: 'center', 
+                    backgroundSize: 'cover', 
+                    display: 'flex', 
+                    flexDirection: 'column', 
+                    justifyContent: 'flex-end', 
+                    height: '300px', 
+                    width: '650px' 
+                    }}
+                >
+                <div className="content" style={{ color: '#ffffff', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+                    <h4 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{mastersDegree.degreeName}</h4>
+                    <h5 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{mastersDegree.universityName}</h5>
+                    <h5 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>GPA: {mastersDegree.gpa} </h5>
+                    <h6 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{mastersDegree.startDate} - {mastersDegree.endDate}</h6>
                 </div>
                 </div>
             </div>
             <div className="col-md-6">
-                <div className="mb-4">
-                <div>
-                    <h4>{bachelorsDegree.degreeName}</h4>
-                    <h5>{bachelorsDegree.universityName}</h5>
-                    <h5>GPA: {bachelorsDegree.gpa}</h5>
-                    <h6>{bachelorsDegree.startDate} - {bachelorsDegree.endDate}</h6>
+                <div className="mb-4"
+                    style={{ backgroundImage: `url(${MSU})`, 
+                    backgroundPosition: 'center', 
+                    backgroundSize: 'cover', 
+                    display: 'flex', 
+                    flexDirection: 'column', 
+                    justifyContent: 'flex-end', 
+                    height: '300px', 
+                    width: '650px' 
+                    }}
+                >
+                <div className="content" style={{ color: '#ffffff', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+                    <h4 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{bachelorsDegree.degreeName}</h4>
+                    <h5 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{bachelorsDegree.universityName}</h5>
+                    <h5 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>GPA: {bachelorsDegree.gpa}</h5>
+                    <h6 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{bachelorsDegree.startDate} - {bachelorsDegree.endDate}</h6>
                 </div>
                 </div>
             </div>

@@ -2,19 +2,28 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className="bg-dark text-light py-4">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-6">
-            <h5>Contact</h5>
-            <ul className="list-unstyled">
-              <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-              <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-              <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-              <li><a href="mailto:your@email.com">Email</a></li>
-            </ul>
-          </div>
-        </div>
+    <footer className="text-center bg-body-tertiary" id='footer'>
+      <div className="container pt-4">
+        <section className="mb-4">
+          <a
+            href="mailto:vrajrana70@gmail.com"
+            className="btn btn-link btn-floating btn-lg text-body m-1"
+            role="button"
+            data-mdb-ripple-color="dark"
+          ><i className="fas fa-envelope"></i></a>
+          <a
+            href="https://www.linkedin.com/in/vrcoder70/"
+            className="btn btn-link btn-floating btn-lg text-body m-1"
+            role="button"
+            data-mdb-ripple-color="dark"
+          ><i className="fab fa-linkedin"></i></a>
+          <a
+            href="https://github.com/vrcoder70"
+            className="btn btn-link btn-floating btn-lg text-body m-1"
+            role="button"
+            data-mdb-ripple-color="dark"
+          ><i className="fab fa-github"></i></a>
+        </section>
       </div>
     </footer>
   );

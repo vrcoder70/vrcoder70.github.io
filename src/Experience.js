@@ -1,65 +1,62 @@
 import React from 'react';
-import AIDE from './data-analyst.jpg';
-import TCS from './TCS.png'
+import AIDE from './AIDE.jpg';
+import TCS from './TCS.jpeg'
 
 function Experience() {
   // Define predefined values for professional experiences
   const experiences = [
     {
-      role: "Software Engineer",
-      employer: "ABC Company",
-      startDate: "January 2018",
-      endDate: "Present",
+      role: "Data Analyst",
+      employer: "AIDE Lab, Arizona State University",
+      startDate: "October 2022",
+      endDate: "October 2023",
       image: AIDE,
-      description: [
-        "Developed web applications using React.js",
-        "Implemented RESTful APIs using Node.js and Express",
-        "Collaborated with cross-functional teams for project delivery"
-      ]
+      description: `As a Data Analyst at the Applied Infectious Disease and Epidemiology Lab at Arizona State University, I was instrumental in managing and analyzing indoor air quality data. Utilizing predictive modeling and statistical techniques, I ensured precise processing of extensive datasets, yielding actionable insights. I also conducted rigorous field tests to validate data collection instruments, preserving data integrity. Through visually engaging visualizations using D3.JS, I effectively communicated complex data trends, enhancing project understanding. Coordinating data collection efforts and overseeing project alignment facilitated informed decision-making among team members and partners. Notably, my contributions resulted in a significant 30-40% reduction in indoor air pollutants, demonstrating the efficacy of the Corsi-Rosenthal box. Additionally, my development of protocols for humidifier experiments and automation of data management processes showcased my analytical prowess. As a published author involved in the study "Effectiveness of Do-In-Yourself Portable Air Cleaners in Reducing Exposure to Respiratory Aerosols in US Classrooms," under review with Science & Education Journal, my expertise in data analysis and interpretation is evident, positioning me for future success.`  
     },
     {
-      role: "Data Analyst",
-      employer: "XYZ Corporation",
-      startDate: "June 2015",
-      endDate: "December 2017",
-      image: AIDE,
-      description: [
-        "Analyzed large datasets to extract insights",
-        "Created visualizations using Tableau",
-        "Presented findings to stakeholders"
-      ]
+      role: "Systems Egineer",
+      employer: "Tata Consultancy Services",
+      startDate: "July 2021",
+      endDate: "July 2022",
+      image: TCS,
+      description: `In my role as a Systems Engineer at Tata Consultancy Services, I played a pivotal role in delivering IT solutions to Verizon, focusing on API and Microservices development using Spring Boot. I led the design and implementation of REST APIs, achieving a 40% improvement in response times through code optimization techniques. Additionally, I provided leadership by guiding a team of three developers, fostering collaboration and resolving critical bugs within REST APIs. My expertise in DevOps practices facilitated seamless deployment using GitLab and Jenkins, ensuring robust CI/CD processes. Notable achievements include my contributions to the Cameo Upgrade Project, where I enhanced system capabilities, and my successful reduction of response times within the costing module. Through my adeptness in troubleshooting, data security, and project management tools like JIRA and Git, I consistently delivered impactful solutions, showcasing my technical proficiency and leadership skills.`
+      
     }
     // Add more experiences as needed
   ];
 
   return (
-    <section id="section3" className="py-5">
+    <section id="experience" >
       <div className="container">
         <div className="row">
-        <div className="col">
-            <h2 className="ml-3">Professional Experience</h2>
-        </div>
+          <div className="col">
+              <h2 className="ml-3">Professional Experience</h2>
+          </div>
         </div>
         {experiences.map((experience, index) => (
           <div className="row mb-5" key={index}>
-            <div className="col-md-6">
+            <div className="col-md-4 d-flex">
               <div className="left-part" 
-            //   style={{ backgroundImage: `url(${experience.image})`, backgroundPosition: 'center' }}
+                  style={{ backgroundImage: `url(${experience.image})`, 
+                  backgroundPosition: 'center', 
+                  backgroundSize: 'cover', 
+                  display: 'flex', 
+                  flexDirection: 'column', 
+                  justifyContent: 'flex-end', 
+                  height: '220px', 
+                  width: '370px' 
+                  }}
               >
-                <div className="content">
-                  <h3>{experience.role}</h3>
-                  <h4>{experience.employer}</h4>
-                  <h5>{experience.startDate} - {experience.endDate}</h5>
+                <div className="content" style={{ color: '#ffffff', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+                  <h3 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{experience.role}</h3>
+                  <h4 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{experience.employer}</h4>
+                  <h5 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{experience.startDate} - {experience.endDate}</h5>
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-8">
               <div className="right-part">
-                <ul>
-                  {experience.description.map((point, index) => (
-                    <li key={index}>{point}</li>
-                  ))}
-                </ul>
+                <p>{experience.description}</p>
               </div>
             </div>
           </div>

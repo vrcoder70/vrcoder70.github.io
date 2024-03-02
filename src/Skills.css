@@ -1,0 +1,11 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 8px;
+}

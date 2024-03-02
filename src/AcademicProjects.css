@@ -8,4 +8,12 @@
   .project-card:hover {
     background-color: #f5f5f5; /* Change background color on hover */
   }
+
+  .project-card.in-progress {
+    background-color: rgb(248, 248, 248);
+  }
+  
+  .project-card.finished {
+    background-color: darkgrey;
+  }
   
