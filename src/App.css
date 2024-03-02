@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .App-logo {
@@ -37,3 +38,8 @@
   }
 }
 
+.square-image {
+  width: 300px; /* Adjust width as needed */
+  height: 300px; /* Adjust height to match width */
+  object-fit: cover;
+}

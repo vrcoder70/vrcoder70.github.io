@@ -1,8 +1,8 @@
 import React from 'react';
 import ASU from './ASU.jpg';
 import MSU from './MSU.png';
-import ASUTranscript from './Vraj Rana ASU Transcript.pdf';
-import MSUTracscript from './Vraj Rana MSU Transcript.pdf';
+import ASUTranscript from './Vraj Rana-Arizona State University-Transcript.pdf';
+import MSUTracscript from './Vraj Rana-The Maharaja Sayajirao University of Baroda-Transcript.pdf';
 
 function Education() {
     const degrees = [
@@ -17,7 +17,7 @@ function Education() {
         },
         {
             degreeName: "Bachelor of Engineering in Computer Science",
-            universityName: " The Maharaja Sayajirao University of Baroda",
+            universityName: "The Maharaja Sayajirao University of Baroda",
             gpa: "3.8",
             startDate: "July 2017",
             endDate: "May 2021",

@@ -2,7 +2,7 @@ import React from 'react';
 import AIDE from './AIDE.jpg';
 import TCS from './TCS.jpeg'
 import IT from './IT-Deskside.jpeg'
-import LOR from './Vraj Rana LOR.pdf';
+import LOR from './Vraj Rana Letter Of Recommendation.pdf';
 import Service from './Vraj Rana Service Certificate.pdf';
 
 function Experience() {
