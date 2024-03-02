@@ -66,17 +66,22 @@ function Experience() {
                   <h3 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{experience.role}</h3>
                   <h4 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{experience.employer}</h4>
                   <h5 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{experience.startDate} - {experience.endDate}</h5>
-                  {
+                  {/* {
                     experience.name === '' ? null : (
                       <a href={experience.doc} download className="btn btn-secondary">{experience.name}</a>
                     )
-                  }
+                  } */}
                 </div>
               </div>
             </div>
             <div className="col-md-8 d-flex align-items-center">
               <div className="right-part">
                 <p>{experience.description}</p>
+                {
+                    experience.name === '' ? null : (
+                      <a href={experience.doc} download className="btn btn-secondary">{experience.name}</a>
+                    )
+                }
               </div>
             </div>
           </div>

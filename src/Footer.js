@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
   return (
     <footer className="text-center bg-body-tertiary" id='footer'>
-      <div className="container pt-4">
+      <div className="container">
         <section className="mb-4">
           <a
             href="mailto:vrajrana70@gmail.com"
