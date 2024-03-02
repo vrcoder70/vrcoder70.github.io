@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/VrajRana-TechPortfolio/static/css/main.aefea140.css",
-    "main.js": "/VrajRana-TechPortfolio/static/js/main.ac0419ab.js",
+    "main.js": "/VrajRana-TechPortfolio/static/js/main.875a652d.js",
     "static/js/453.9b36bec1.chunk.js": "/VrajRana-TechPortfolio/static/js/453.9b36bec1.chunk.js",
     "static/media/MSU.png": "/VrajRana-TechPortfolio/static/media/MSU.190ad34245a76760ff08.png",
     "static/media/Resume.pdf": "/VrajRana-TechPortfolio/static/media/Resume.873cff3a69558dbae97d.pdf",
@@ -15,11 +15,11 @@
     "static/media/Vraj Rana ASU Transcript.pdf": "/VrajRana-TechPortfolio/static/media/Vraj Rana ASU Transcript.1e516ada0c74c30dcad0.pdf",
     "index.html": "/VrajRana-TechPortfolio/index.html",
     "main.aefea140.css.map": "/VrajRana-TechPortfolio/static/css/main.aefea140.css.map",
-    "main.ac0419ab.js.map": "/VrajRana-TechPortfolio/static/js/main.ac0419ab.js.map",
+    "main.875a652d.js.map": "/VrajRana-TechPortfolio/static/js/main.875a652d.js.map",
     "453.9b36bec1.chunk.js.map": "/VrajRana-TechPortfolio/static/js/453.9b36bec1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aefea140.css",
-    "static/js/main.ac0419ab.js"
+    "static/js/main.875a652d.js"
   ]
 }
