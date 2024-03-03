@@ -17,7 +17,7 @@ function Summary() {
               As an international student, I bring a unique blend of perspectives, multilingual proficiency, cultural awareness, and a global network. My experiences have instilled in me a deep cultural sensitivity, a global mindset, and a robust capacity for adaptability and resilience in diverse environments. I am committed to leveraging my knowledge and skills to excel in the field of computer science, contributing meaningfully to innovative projects and collaborative teams.
             </p>
             <h2>Goals</h2>
-            <p>My objective is to thrive in the realm of software and deep learning, leveraging my proficiency in development and machine learning to tackle complex problems and drive innovation. I am keenly drawn to roles that allow me the opportunity to engage with cutting-edge technologies and collaborate with skilled teams to craft impactful solutions. I am receptive to opportunities with professional growth, stimulating projects, and a collaborative workplace environment.</p>
+            <p>My objective is to excel in the dynamic field of computer science. I am passionate about leveraging my skills to address intricate challenges and foster innovation. Eager to immerse myself in roles that offer exposure to leading-edge technologies and foster collaborative environments, I am committed to continuous learning and professional development. As the saying goes, 'Jack of all trades is a master of none, but oftentimes better than a master of one,' I aspire to maintain a diverse skill set and contribute effectively to any team or project.</p>
             <a href={Resume} download className="btn btn-secondary">Resume</a>
           </div>
         </div>
