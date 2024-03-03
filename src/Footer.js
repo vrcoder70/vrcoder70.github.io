@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="text-center bg-body-tertiary" id='footer'>
       <div className="container">
-        <section className="mb-4">
+        <section className="mb-4 d-flex justify-content-center align-items-center">
           <a
             href="mailto:vrana7@asu.edu"
             className="btn btn-link btn-floating btn-lg text-body m-1"
@@ -26,6 +26,7 @@ function Footer() {
             target="_blank" rel="noopener noreferrer"
             data-mdb-ripple-color="dark"
           ><i className="fab fa-github"></i></a>
+          <p className="text-body m-1">Phone: +1 602-910-9891</p>
         </section>
       </div>
     </footer>

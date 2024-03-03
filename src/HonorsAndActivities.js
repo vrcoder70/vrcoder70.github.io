@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import Agile from './Agile Job Simulation Certificate.pdf';
+import CADP from './Corporate Analyst Development Program Certificate.pdf';
+import DA from './Data Analytics Job Simulation.pdf';
 
 const HonorsAndActivities = () => {
     // Define your honors and activities here
@@ -13,15 +16,21 @@ const HonorsAndActivities = () => {
         },
         {
             title: "JPMorgan Chase & Co. Corporate Analyst Development Program (CADP) Virtual Experience",
-            details: "Completed, focusing on data visualization, business process analysis, and presentation skills."
+            details: "Completed, focusing on data visualization, business process analysis, and presentation skills.",
+            name: "Certificate",
+            doc: CADP
         },
         {
             title: "Quantium Data Analytics Job Simulation",
-            details: "Completed, gaining expertise in data preparation, customer analytics, and data-driven commercial insights."
+            details: "Completed, gaining expertise in data preparation, customer analytics, and data-driven commercial insights.",
+            name: "Certificate",
+            doc: DA
         },
         {
             title: "JPMorgan Chase & Co. Agile Job Simulation",
-            details: "Completed, gaining experience in agile methodologies and project management."
+            details: "Completed, gaining experience in agile methodologies and project management.",
+            name: "Certificate",
+            doc: Agile
         },
         {
             title: "MMA Club at Arizona State University",
@@ -65,6 +74,11 @@ const HonorsAndActivities = () => {
                     <div className={`project-card ${project.status === 'finished' ? 'finished' : 'in-progress'}`} onClick={() => toggleProjectInfo(index)}>
                     <div className="project-info" style={{ display: projectInfoVisible && selectedProject === index ? 'block' : 'none' }}>
                         <p>{project.details}</p>
+                        {
+                            project.name === 'Certificate' && (
+                                <a href={project.doc} download className="btn btn-secondary">{project.name}</a>
+                              )
+                        }
                     </div>
                     <div className="project-content" style={{ display: projectInfoVisible && selectedProject === index ? 'none' : 'block' }}>
                         <h6>{project.title}</h6>
