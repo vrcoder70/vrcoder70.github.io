@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/VrajRana-TechPortfolio/static/css/main.f38e8706.css",
-    "main.js": "/VrajRana-TechPortfolio/static/js/main.0432fd23.js",
+    "main.js": "/VrajRana-TechPortfolio/static/js/main.25e57ac6.js",
     "static/js/453.9b36bec1.chunk.js": "/VrajRana-TechPortfolio/static/js/453.9b36bec1.chunk.js",
     "static/media/MSU.png": "/VrajRana-TechPortfolio/static/media/MSU.190ad34245a76760ff08.png",
     "static/media/Vraj Rana Resume.pdf": "/VrajRana-TechPortfolio/static/media/Vraj Rana Resume.df2b93957d4308081d6a.pdf",
@@ -9,17 +9,20 @@
     "static/media/Vraj Rana-The Maharaja Sayajirao University of Baroda-Transcript.pdf": "/VrajRana-TechPortfolio/static/media/Vraj Rana-The Maharaja Sayajirao University of Baroda-Transcript.6b06c854c5d27d7309ba.pdf",
     "static/media/ASU.jpg": "/VrajRana-TechPortfolio/static/media/ASU.fb24031262d9f2c055b8.jpg",
     "static/media/Profile-2.jpg": "/VrajRana-TechPortfolio/static/media/Profile-2.2b99be21ce1e088a4ed1.jpg",
+    "static/media/Data Analytics Job Simulation.pdf": "/VrajRana-TechPortfolio/static/media/Data Analytics Job Simulation.2e8453a571bf5bfa989d.pdf",
     "static/media/AIDE.jpg": "/VrajRana-TechPortfolio/static/media/AIDE.aa5d8391bd061ca19f11.jpg",
+    "static/media/Agile Job Simulation Certificate.pdf": "/VrajRana-TechPortfolio/static/media/Agile Job Simulation Certificate.b5ed7df1198f110bf867.pdf",
+    "static/media/Corporate Analyst Development Program Certificate.pdf": "/VrajRana-TechPortfolio/static/media/Corporate Analyst Development Program Certificate.5245116394b5856ed4d0.pdf",
     "static/media/Vraj Rana Service Certificate.pdf": "/VrajRana-TechPortfolio/static/media/Vraj Rana Service Certificate.7f36849a47ce82edc9f1.pdf",
     "static/media/IT-Deskside.jpeg": "/VrajRana-TechPortfolio/static/media/IT-Deskside.7cb17edabfee35153eb6.jpeg",
     "static/media/Vraj Rana-Arizona State University-Transcript.pdf": "/VrajRana-TechPortfolio/static/media/Vraj Rana-Arizona State University-Transcript.1e516ada0c74c30dcad0.pdf",
     "index.html": "/VrajRana-TechPortfolio/index.html",
     "main.f38e8706.css.map": "/VrajRana-TechPortfolio/static/css/main.f38e8706.css.map",
-    "main.0432fd23.js.map": "/VrajRana-TechPortfolio/static/js/main.0432fd23.js.map",
+    "main.25e57ac6.js.map": "/VrajRana-TechPortfolio/static/js/main.25e57ac6.js.map",
     "453.9b36bec1.chunk.js.map": "/VrajRana-TechPortfolio/static/js/453.9b36bec1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f38e8706.css",
-    "static/js/main.0432fd23.js"
+    "static/js/main.25e57ac6.js"
   ]
 }
