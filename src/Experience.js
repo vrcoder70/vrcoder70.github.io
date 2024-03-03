@@ -1,6 +1,6 @@
 import React from 'react';
 import AIDE from './AIDE.jpg';
-import TCS from './TCS.jpeg'
+import TCS from './TCS-3.jpg'
 import IT from './IT-Deskside.jpeg'
 import LOR from './Vraj Rana Letter Of Recommendation.pdf';
 import Service from './Vraj Rana Service Certificate.pdf';
@@ -28,7 +28,7 @@ function Experience() {
       description: `As a Data Analyst at the Applied Infectious Disease and Epidemiology Lab at Arizona State University, I was instrumental in managing and analyzing indoor air quality data. Utilizing predictive modeling and statistical techniques, I ensured precise processing of extensive datasets, yielding actionable insights. I also conducted rigorous field tests to validate data collection instruments, preserving data integrity. Through visually engaging visualizations using D3.JS, I effectively communicated complex data trends, enhancing project understanding. Coordinating data collection efforts and overseeing project alignment facilitated informed decision-making among team members and partners. Notably, my contributions resulted in a significant 30-40% reduction in indoor air pollutants, demonstrating the efficacy of the Corsi-Rosenthal box. Additionally, my development of protocols for humidifier experiments and automation of data management processes showcased my analytical prowess. As a published author involved in the study "Effectiveness of Do-In-Yourself Portable Air Cleaners in Reducing Exposure to Respiratory Aerosols in US Classrooms," under review with Science & Education Journal, my expertise in data analysis and interpretation is evident.`  
     },
     {
-      role: "Systems Egineer",
+      role: "Systems Engineer",
       employer: "Tata Consultancy Services",
       startDate: "July 2021",
       endDate: "July 2022",
