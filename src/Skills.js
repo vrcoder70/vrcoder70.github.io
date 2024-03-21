@@ -4,8 +4,8 @@ import './Skills.css';
 const Skills = () => {
     // Define your skills here
     const skills = [
-        "Python", "Java", "JavaScript", "C++", "SQL", "NoSQL", "MongoDB", "PostgreSQL", "Pytorch", "Computer Vision", "Convolutional Neural Network", "Data Visualization", "Data Analysis",
-        "Cloud Computing", "Kubernetes", "AWS", "Docker",  "Terraform", "Jenkins", "Spring Boot", "JPA", "JPQL", "Rest APIs", "Agile", "Scrum",
+        "Python", "Java", "JavaScript", "C++", "Bash", "SQL", "NoSQL", "MongoDB", "PostgreSQL", "Pytorch", "Computer Vision", "Convolutional Neural Network", "Omniverser Audio2Face", "Data Visualization", "Data Analysis",
+        "Cloud Computing", "Kubernetes", "AWS", "Docker",  "Terraform", "Jenkins", "Spring Framework", "Restful API Development", "Linux OS" ,"Agile", "Scrum",
         "Node.Js", "React.JS", "D3.JS", "Git", "Junit", "Mockito", "JIRA"
     ];
 
