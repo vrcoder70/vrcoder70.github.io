@@ -15,7 +15,15 @@ function Experience() {
       endDate: "Present",
       name: '',
       image: IT,
-      description: `In my current role as an IT Deskside Support specialist at Thunderbird School, I am responsible for a range of duties aimed at integrating Artificial Intelligence into our technology stack. This includes programming solutions to record questions, generate AI-powered answers via GPT API, convert responses into audio files, and utilize Nvidia's Audio2Face module for dynamic model generation. Operating across Linux, Windows, and macOS environments, I remotely install software and diligently resolve IT tickets. Additionally, I provide invaluable support to faculty and students in navigating our challenging technology landscape. Leveraging my expertise in technology, teamwork, and strong interpersonal skills, I efficiently tackle daily tasks and contribute to a seamless technology experience for our community.`
+      description: `In my current role as an IT Deskside Support specialist at Thunderbird School, I am responsible for a range of duties aimed at integrating Artificial Intelligence into our technology stack. This includes programming solutions to record questions, generate AI-powered answers via GPT API, convert responses into audio files, and utilize Nvidia's Audio2Face module for dynamic model generation. Operating across Linux, Windows, and macOS environments, I remotely install software and diligently resolve IT tickets. Additionally, I provide invaluable support to faculty and students in navigating our challenging technology landscape. Leveraging my expertise in technology, teamwork, and strong interpersonal skills, I efficiently tackle daily tasks and contribute to a seamless technology experience for our community.`,
+      descriptionPoint: [
+        `Created "Conversation AI," a program enabling communication with users and resolving their queries by generating AI-powered answers, converting responses into audio files, and utilizing Nvidia's Audio2Face module for dynamic model generation.`,
+        `Proficiently operated across Linux, Windows, and macOS environments.`,
+        `Remotely installed software and resolved IT tickets.`,
+        `Provided invaluable support to faculty and students in navigating complex technology.`,
+        `Leveraged expertise in technology, teamwork, and interpersonal skills to ensure a seamless technology experience for the community.`,
+      ]
+      
     },
     {
       role: "Data Analyst",

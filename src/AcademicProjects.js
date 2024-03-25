@@ -76,7 +76,7 @@ function AcademicProjects() {
         <div className="row">
           {projects.map((project, index) => (
             <div key={index} className="col-md-3 mb-3">
-              <div className={`project-card ${project.status === 'finished' ? 'finished' : 'in-progress'}`} onClick={() => toggleProjectInfo(index)}>
+              <div className={`project-card ${project.status === 'finished' ? 'finished' : 'in-progress'}`} onClick={() => toggleProjectInfo(index)} style={{minHeight: '80px'}}>
                 <div className="project-info" style={{ display: projectInfoVisible && selectedProject === index ? 'block' : 'none' }}>
                   <p>{project.description}</p>
                   {

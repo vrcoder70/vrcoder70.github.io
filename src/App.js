@@ -5,10 +5,11 @@ import Summary from './Summary';
 import Education from './Education';
 import Experience from './Experience';
 import AcademicProjects from './AcademicProjects';
-import Testimonials from './Testimonials';
+// import Testimonials from './Testimonials';
 import Footer from './Footer';
 import Skills from './Skills';
 import HonorsAndActivities from './HonorsAndActivities';
+import Courses from './CourseWork';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Summary />
         <Experience />
         <Education />
+        <Courses />
         <Skills />
         <AcademicProjects />
         <HonorsAndActivities />
