@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/VrajRana-TechPortfolio/static/css/main.f38e8706.css",
-    "main.js": "/VrajRana-TechPortfolio/static/js/main.689bccc5.js",
+    "main.js": "/VrajRana-TechPortfolio/static/js/main.f38d08fb.js",
     "static/js/453.9b36bec1.chunk.js": "/VrajRana-TechPortfolio/static/js/453.9b36bec1.chunk.js",
     "static/media/MSU.png": "/VrajRana-TechPortfolio/static/media/MSU.190ad34245a76760ff08.png",
     "static/media/vrana7@asu.edu-3.jpg": "/VrajRana-TechPortfolio/static/media/vrana7@asu.edu-3.ac660c5959539b042cf1.jpg",
@@ -20,11 +20,11 @@
     "static/media/Vraj Rana-Arizona State University-Transcript.pdf": "/VrajRana-TechPortfolio/static/media/Vraj Rana-Arizona State University-Transcript.1e516ada0c74c30dcad0.pdf",
     "index.html": "/VrajRana-TechPortfolio/index.html",
     "main.f38e8706.css.map": "/VrajRana-TechPortfolio/static/css/main.f38e8706.css.map",
-    "main.689bccc5.js.map": "/VrajRana-TechPortfolio/static/js/main.689bccc5.js.map",
+    "main.f38d08fb.js.map": "/VrajRana-TechPortfolio/static/js/main.f38d08fb.js.map",
     "453.9b36bec1.chunk.js.map": "/VrajRana-TechPortfolio/static/js/453.9b36bec1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f38e8706.css",
-    "static/js/main.689bccc5.js"
+    "static/js/main.f38d08fb.js"
   ]
 }
