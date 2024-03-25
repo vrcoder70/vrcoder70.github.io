@@ -18,12 +18,11 @@ function App() {
       <div className="content-section">
         <Summary />
         <Experience />
-        <Education />
-        <Courses />
         <Skills />
+        <Education />
         <AcademicProjects />
+        <Courses />
         <HonorsAndActivities />
-        {/* <Testimonials /> */}
       </div>
       <Footer />
     </div>

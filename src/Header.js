@@ -1,6 +1,50 @@
 import React from 'react';
 
 function Header() {
+
+  const links = [
+    {
+      name : 'Introduction',
+      id : '#summary'
+    },
+    {
+      name : 'Professional Experience',
+      id : '#experience'
+    },
+    {
+      name : 'Skills',
+      id : '#Skills'
+    },
+    {
+      name : 'Education',
+      id : '#education'
+    },
+    {
+      name : 'Academic Projects',
+      id : '#academic-projects'
+    },
+    {
+      name : 'Course work',
+      id : '#courses'
+    },
+    {
+      name : 'Publication',
+      id : '#Publication'
+    },
+    {
+      name : 'Poster Presentation',
+      id : '#Poster'
+    },
+    {
+      name : 'Certifications',
+      id : '#Certification'
+    },
+    {
+      name : 'Contact',
+      id : '#footer'
+    },
+  ]
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
@@ -10,33 +54,12 @@ function Header() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <a className="nav-link" href="#summary">Introduction</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#experience">Professional Experience</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#education">Education</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#courses">Course work</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#skills">Skills</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#academic-projects">Academic Projects</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#honors-and-activities">Honors And Activities</a>
-            </li>
-            {/* <li className="nav-item">
-              <a className="nav-link" href="#testimonials">Testimonials</a>
-            </li> */}
-            <li className="nav-item">
-              <a className="nav-link" href="#footer">Contact</a>
-            </li>
+            {links.map((link,index) => (
+              <li className="nav-item">
+                <a className="nav-link" href={link.id}>{link.name}</a>
+              </li>
+            ))}
+            
           </ul>
         </div>
       </div>

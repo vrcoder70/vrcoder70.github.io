@@ -8,7 +8,7 @@ const HonorsAndActivities = () => {
     const publications = [
         {
             title: "Effectiveness of Do-In-Yourself Portable Air Cleaners in Reducing Exposure to Respiratory Aerosols in US Classrooms",
-            details: "Publication under review with Science & Education Journal."
+            details: "Publication under review with Science & Education Journal"
         },
     ]
 
@@ -106,7 +106,7 @@ const HonorsAndActivities = () => {
                     {publications.map((project, index) => (
                     <div key={index} className="col-md-12 mb-12 skill">
                         <h4>{project.title}</h4>
-                        <h6>~{project.details}</h6>
+                        <h6>~{project.details}~</h6>
                     </div>
                     ))}
                 </div>
@@ -119,7 +119,7 @@ const HonorsAndActivities = () => {
                 <div key={index} className="col-md-6 mb-6">
                     <div className='skill'>
                         <h4>{project.title}</h4>
-                        <h6>~{project.conference}</h6>
+                        <h6>~{project.conference}~</h6>
                     </div>
                 </div>
                 ))}
@@ -149,7 +149,7 @@ const HonorsAndActivities = () => {
 
 
             <div className="container " style={{marginTop: '2px'}} id='Activity'>
-                <h2>Activities</h2>
+                <h2>Extracurricular Activities</h2>
                 <div className="row">
                     {activities.map((activity, index) => (
                     <div key={index} className="col-md-4 mb-4">

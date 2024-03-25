@@ -28,7 +28,7 @@ function Education() {
 
     return (
         <section id="education" >
-            <div className="container">
+            <div className="container" style={{marginTop:'25px'}}>
                 <div className="row">
                 <div className="col">
                     <h2 className="ml-3">Education</h2>

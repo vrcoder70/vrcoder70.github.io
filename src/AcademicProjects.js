@@ -55,19 +55,6 @@ function AcademicProjects() {
     // Add more projects as needed
   ];
 
-  // State to track whether project info is displayed
-  const [projectInfoVisible, setProjectInfoVisible] = useState(false);
-  const [selectedProject, setSelectedProject] = useState(null);
-
-  // Function to toggle project info visibility
-  const toggleProjectInfo = (index) => {
-    if (selectedProject === index) {
-      setProjectInfoVisible(!projectInfoVisible);
-    } else {
-      setProjectInfoVisible(true);
-    }
-    setSelectedProject(index);
-  };
 
   return (
     <section id="academic-projects" className="py-2">
@@ -75,21 +62,20 @@ function AcademicProjects() {
         <h2>Academic Projects</h2>
         <div className="row">
           {projects.map((project, index) => (
-            <div key={index} className="col-md-3 mb-3">
-              <div className={`project-card ${project.status === 'finished' ? 'finished' : 'in-progress'}`} onClick={() => toggleProjectInfo(index)} style={{minHeight: '80px'}}>
-                <div className="project-info" style={{ display: projectInfoVisible && selectedProject === index ? 'block' : 'none' }}>
+            <div key={index} className="col-md-6 mb-1">
+              <div className={`project-card`} style={{minHeight: '280px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
+                {/* <div className="project-content project-info"> */}
+                  <h5>{project.name}</h5>
                   <p>{project.description}</p>
+                  <p style={{ marginTop: 'auto', textAlign: 'center', visibility: project.link !== "" ? 'hidden' : 'visible' }}></p>
                   {
                     project.link !== "" && (
-                      <a href={project.link} target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
-                        View Project
-                      </a>
+                      <div style={{marginTop: 'auto', textAlign: 'center'}}>
+                        <a href={project.link} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">View Project</a>
+                      </div>
                     )
                   }
-                </div>
-                <div className="project-content" style={{ display: projectInfoVisible && selectedProject === index ? 'none' : 'block' }}>
-                  <h5>{project.name}</h5>
-                </div>
+                {/* </div> */}
               </div>
             </div>
           ))}
