@@ -63,7 +63,7 @@ function AcademicProjects() {
         <div className="row">
           {projects.map((project, index) => (
             <div key={index} className="col-md-6 mb-1">
-              <div className={`project-card`} style={{minHeight: '280px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
+              <div className={`project-card`} style={{minHeight: '295px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
                 {/* <div className="project-content project-info"> */}
                   <h5>{project.name}</h5>
                   <p>{project.description}</p>

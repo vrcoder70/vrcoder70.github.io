@@ -10,8 +10,8 @@ const Skills = () => {
     ];
 
     return (
-        <section id="skills" className="py-2">
-            <div className="container">
+        <section  className="py-2">
+            <div className="container" id="skills">
                 <h2>Skills</h2>
                 <div className="skills d-flex" style={{flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
                 {skills.map((skill, index) => (
