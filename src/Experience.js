@@ -46,14 +46,14 @@ function Experience() {
       ]
     },
     {
-      role: "Systems Engineer",
+      role: "Software Engineer",
       employer: "Tata Consultancy Services",
       startDate: "July 2021",
       endDate: "July 2022",
       doc: Service,
       name: 'Service Certificate',
       image: TCS,
-      description: `In my role as a Systems Engineer at Tata Consultancy Services, I played a pivotal role in delivering IT solutions to Verizon, focusing on API and Microservices development using Spring Boot. I led the design and implementation of REST APIs, achieving a 40% improvement in response times through code optimization techniques. Additionally, I provided leadership by guiding a team of three developers, fostering collaboration, and resolving critical bugs within REST APIs. My expertise in DevOps practices facilitated seamless deployment using GitLab and Jenkins, ensuring robust CI/CD processes. Notable achievements include my contributions to the Cameo Upgrade Project, where I enhanced system capabilities, and my successful reduction of response times within the costing module. Through my adeptness in troubleshooting, data security, and project management tools like JIRA and Git, I consistently delivered impactful solutions, showcasing my technical proficiency and leadership skills.`
+      description: `In my role as a Software Engineer at Tata Consultancy Services, I played a pivotal role in delivering IT solutions to Verizon, focusing on API and Microservices development using Spring Boot. I led the design and implementation of REST APIs, achieving a 40% improvement in response times through code optimization techniques. Additionally, I provided leadership by guiding a team of three developers, fostering collaboration, and resolving critical bugs within REST APIs. My expertise in DevOps practices facilitated seamless deployment using GitLab and Jenkins, ensuring robust CI/CD processes. Notable achievements include my contributions to the Cameo Upgrade Project, where I enhanced system capabilities, and my successful reduction of response times within the costing module. Through my adeptness in troubleshooting, data security, and project management tools like JIRA and Git, I consistently delivered impactful solutions, showcasing my technical proficiency and leadership skills.`
     }
     // Add more experiences as needed
   ];
