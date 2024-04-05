@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Agile from './Agile Job Simulation Certificate.pdf';
 import CADP from './Corporate Analyst Development Program Certificate.pdf';
 import DA from './Data Analytics Job Simulation.pdf';
@@ -7,8 +7,9 @@ const HonorsAndActivities = () => {
     // Define your honors and activities here
     const publications = [
         {
-            title: "Effectiveness of Do-In-Yourself Portable Air Cleaners in Reducing Exposure to Respiratory Aerosols in US Classrooms",
-            details: "Publication under review with Science & Education Journal"
+            title: "Effectiveness of Do-In-Yourself Portable Air Cleaners in Reducing Exposure to Respiratory Aerosols in US Classrooms:A Longitudinal Study of K-12 Schools",
+            details: "Publication under review with Science & Education Journal",
+            link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4605610"
         },
     ]
 
@@ -84,18 +85,18 @@ const HonorsAndActivities = () => {
     
 
     // State to track whether project info is displayed
-    const [projectInfoVisible, setProjectInfoVisible] = useState(false);
-    const [selectedProject, setSelectedProject] = useState(null);
+    // const [projectInfoVisible, setProjectInfoVisible] = useState(false);
+    // const [selectedProject, setSelectedProject] = useState(null);
 
      // Function to toggle project info visibility
-    const toggleProjectInfo = (index) => {
-        if (selectedProject === index) {
-        setProjectInfoVisible(!projectInfoVisible);
-        } else {
-        setProjectInfoVisible(true);
-        }
-        setSelectedProject(index);
-    };
+    // const toggleProjectInfo = (index) => {
+    //     if (selectedProject === index) {
+    //     setProjectInfoVisible(!projectInfoVisible);
+    //     } else {
+    //     setProjectInfoVisible(true);
+    //     }
+    //     setSelectedProject(index);
+    // };
 
     return (
         <section id="honors-and-activities" className="py-2">
@@ -107,6 +108,7 @@ const HonorsAndActivities = () => {
                     <div key={index} className="col-md-12 mb-12 skill">
                         <h4>{project.title}</h4>
                         <h6>~{project.details}~</h6>
+                        <a href={project.link} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Publication</a>
                     </div>
                     ))}
                 </div>

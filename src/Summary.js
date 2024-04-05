@@ -1,6 +1,6 @@
 import React from 'react';
-import Profile from './Profile-2.jpg';
-import Resume from './Vraj Rana Resume.pdf';
+// import Profile from './Profile-2.jpg';
+// import Resume from './Vraj Rana Resume.pdf';
 import Resume2 from './Vraj Rana Software Engineer Resume.pdf'
 import Profile2 from './vrana7@asu.edu-3.jpg'
 
