@@ -1,8 +1,6 @@
 import React from 'react';
-// import Profile from './Profile-2.jpg';
-// import Resume from './Vraj Rana Resume.pdf';
-import Resume2 from './Vraj Rana Software Engineer Resume.pdf'
-import Profile2 from './vrana7@asu.edu-3.jpg'
+import Resume from './Resume.pdf'
+import Profile from './vrana7@asu.edu-3.jpg'
 
 function Summary() {
   return (
@@ -10,7 +8,7 @@ function Summary() {
       <div className="container" style={{ marginTop: '20px' }}>
         <div className="row">
           <div className="col-md-4 d-flex justify-content-center align-items-center">
-            <img src={Profile2} alt="Your Image" className="img-fluid rounded-circle square-image" />
+            <img src={Profile} alt="Profile Picture" className="img-fluid rounded-circle square-image" />
           </div>
           <div className="col-md-8">
             <h2>Summary</h2>
@@ -20,7 +18,7 @@ function Summary() {
             </p>
             <h2>Goals</h2>
             <p>My objective is to excel in the dynamic field of computer science. I am passionate about leveraging my skills to address intricate challenges and foster innovation. Eager to immerse myself in roles that offer exposure to leading-edge technologies and foster collaborative environments, I am committed to continuous learning and professional development. As the saying goes, 'Jack of all trades is a master of none, but oftentimes better than a master of one,' I aspire to maintain a diverse skill set and contribute effectively to your project.</p>
-            <a href={Resume2} download className="btn btn-secondary">Resume</a>
+            <a href={Resume} download className="btn btn-secondary">Resume</a>
           </div>
         </div>
       </div>
