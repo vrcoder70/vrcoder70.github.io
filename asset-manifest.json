@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/VrajRana-TechPortfolio/static/css/main.f38e8706.css",
-    "main.js": "/VrajRana-TechPortfolio/static/js/main.f1f26c5f.js",
+    "main.js": "/VrajRana-TechPortfolio/static/js/main.3adf6ea5.js",
     "static/js/453.9b36bec1.chunk.js": "/VrajRana-TechPortfolio/static/js/453.9b36bec1.chunk.js",
     "static/media/MSU.png": "/VrajRana-TechPortfolio/static/media/MSU.190ad34245a76760ff08.png",
     "static/media/vrana7@asu.edu-3.jpg": "/VrajRana-TechPortfolio/static/media/vrana7@asu.edu-3.ac660c5959539b042cf1.jpg",
     "static/media/TCS-3.jpg": "/VrajRana-TechPortfolio/static/media/TCS-3.62b21c0aa740b24cd329.jpg",
-    "static/media/Vraj Rana Software Engineer Resume.pdf": "/VrajRana-TechPortfolio/static/media/Vraj Rana Software Engineer Resume.c5dd5105fb484a383671.pdf",
+    "static/media/Resume.pdf": "/VrajRana-TechPortfolio/static/media/Resume.ed09e4f08e25bee9c3e0.pdf",
     "static/media/Vraj Rana Letter Of Recommendation.pdf": "/VrajRana-TechPortfolio/static/media/Vraj Rana Letter Of Recommendation.d1731bafc292b00d6c13.pdf",
     "static/media/Vraj Rana-The Maharaja Sayajirao University of Baroda-Transcript.pdf": "/VrajRana-TechPortfolio/static/media/Vraj Rana-The Maharaja Sayajirao University of Baroda-Transcript.6b06c854c5d27d7309ba.pdf",
     "static/media/ASU.jpg": "/VrajRana-TechPortfolio/static/media/ASU.fb24031262d9f2c055b8.jpg",
@@ -19,11 +19,11 @@
     "static/media/Vraj Rana-Arizona State University-Transcript.pdf": "/VrajRana-TechPortfolio/static/media/Vraj Rana-Arizona State University-Transcript.1e516ada0c74c30dcad0.pdf",
     "index.html": "/VrajRana-TechPortfolio/index.html",
     "main.f38e8706.css.map": "/VrajRana-TechPortfolio/static/css/main.f38e8706.css.map",
-    "main.f1f26c5f.js.map": "/VrajRana-TechPortfolio/static/js/main.f1f26c5f.js.map",
+    "main.3adf6ea5.js.map": "/VrajRana-TechPortfolio/static/js/main.3adf6ea5.js.map",
     "453.9b36bec1.chunk.js.map": "/VrajRana-TechPortfolio/static/js/453.9b36bec1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f38e8706.css",
-    "static/js/main.f1f26c5f.js"
+    "static/js/main.3adf6ea5.js"
   ]
 }
