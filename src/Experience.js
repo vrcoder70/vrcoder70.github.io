@@ -1,9 +1,7 @@
 import React from 'react';
-import AIDE from './AIDE.jpg';
-import TCS from './TCS-3.jpg'
-import IT from './IT-Deskside.jpeg'
-import LOR from './Vraj Rana Letter Of Recommendation.pdf';
-import Service from './Vraj Rana Service Certificate.pdf';
+import AIDE from './image/AIDE.jpg';
+import TCS from './image/TCS-3.jpg'
+import IT from './image/IT-Deskside.jpeg'
 
 function Experience() {
   // Define predefined values for professional experiences
@@ -16,6 +14,7 @@ function Experience() {
       name: '',
       address: '401 N 1st St, Phoenix, AZ 85004',
       image: IT,
+      link: "",
       descriptionPoint: [
         'Developed an interactive AI-driven negotiation simulation tool for business students, enabling case study uploads and personalized scenario creation.',
         'Integrated performance feedback mechanisms and archival functionalities, enhancing educational outcomes and facilitating detailed reviews by professors.',
@@ -30,15 +29,16 @@ function Experience() {
       employer: "AIDE Lab, Arizona State University",
       startDate: "October 2022",
       endDate: "October 2023",
-      doc: LOR,
+      doc: 'https://drive.google.com/file/d/1qiw0sP4TT2D3EybNkK9vJyfwda7zksP9/view?usp=sharing',
       name: 'Letter Of Recommendation',
       address: '951 S. Cady Mall , Suit 103, Tempe, AZ 85281',
       image: AIDE,
+      link: "https://www.sciencedirect.com/science/article/abs/pii/S0360132324004451?dgcid=author",
       descriptionPoint:[
         'Implemented a classroom air quality monitoring network, streamlining data collection, and processing, resulting in a 50% reduction in time spent on data management.',
         'Leveraged statistical analysis to evaluate the impact of HEPA filters, demonstrating a 40% decrease in air pollutants within classrooms.',
         'Developed data visualizations for poster presentation at AZPHA conference, as well as for reports, ensuring clear communication of research findings to a diverse audience.',
-        'Authored a research paper on “Effectiveness of DIY Air Cleaners in Reducing Exposure to Respiratory Aerosols in Us Classrooms: a Longitudinal Study of K-12 Schools”, currently under review by the Science & Education Journal.', 
+        'Authored a research paper on "Effectiveness of Do-it-Yourself Air Cleaners in Reducing Exposure to Respiratory Aerosols in US Classrooms: a Longitudinal Study of K-12 Schools", published in the Science & Education Journal.', 
       ]
     },
     {
@@ -46,10 +46,11 @@ function Experience() {
       employer: "Tata Consultancy Services",
       startDate: "July 2021",
       endDate: "July 2022",
-      doc: Service,
+      doc: 'https://drive.google.com/file/d/131gMnLh8FF6BNWOIYhpJ-59L7IKbP4d7/view?usp=sharing',
       name: 'Service Certificate',
       address: 'TCS Main Building, DA IICT Rd, Infocity, Gandhinagar, GJ 382421, IND',
       image: TCS,
+      link: "",
       descriptionPoint:[
         'Modernized a legacy monolithic application by migrating to microservices architecture and building RESTful APIs using Spring Boot.',
         'Designed and implemented Costing and Data Persistence APIs within an Agile Scrum framework, adhering to sprint deadlines and collaborating effectively with the team.',
@@ -85,6 +86,11 @@ function Experience() {
                   <h3 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{experience.role}</h3>
                   <h4 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{experience.employer}</h4>
                   <h5 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{experience.startDate} - {experience.endDate}</h5>
+                  {
+                    experience.link !== "" && (
+                        <a href={experience.link} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Publication</a>
+                    )
+                  }
                 </div>
               </div>
             </div>
@@ -95,7 +101,7 @@ function Experience() {
                 </ul>
                 {
                     experience.name === '' ? null : (
-                      <a href={experience.doc} download className="btn btn-secondary">{experience.name}</a>
+                      <a href={experience.doc} target='_blank' download className="btn btn-secondary">{experience.name}</a>
                     )
                 }
               </div>

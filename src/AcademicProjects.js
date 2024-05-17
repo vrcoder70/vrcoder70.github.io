@@ -15,11 +15,11 @@ function AcademicProjects() {
       ]
     },
     {  
-      name: "Database management and system implemenation (Software Engineering)", 
+      name: "Database management and system implementation (Software Engineering)", 
       status: "finished",
       link: "", 
       description: [
-        'Collaborated on developing a column store database within the MiniBase codebase, implementing Compressed BitMap Indexes, Batch Insert, Duplicate elimination, Querying, Index Joins and Delete records functionalities',
+        'Collaborated on developing a column store database within the MiniBase codebase, implementing Compressed BitMap Indexes, Batch Insert, Duplicate elimination, Querying, Index Joins and Delete records functionalities.',
         'Enhanced data storage and retrieval efficiency through columnar storage design, showcasing strong database management skills.',
         'Gained valuable experience working in a team environment on a software development project.'
       ]

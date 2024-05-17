@@ -1,7 +1,4 @@
 import React from 'react';
-import Agile from './Agile Job Simulation Certificate.pdf';
-import CADP from './Corporate Analyst Development Program Certificate.pdf';
-import DA from './Data Analytics Job Simulation.pdf';
 
 const HonorsAndActivities = () => {
     // Define your honors and activities here
@@ -9,7 +6,7 @@ const HonorsAndActivities = () => {
         {
             title: "Effectiveness of Do-In-Yourself Portable Air Cleaners in Reducing Exposure to Respiratory Aerosols in US Classrooms:A Longitudinal Study of K-12 Schools",
             details: "Publication under review with Science & Education Journal",
-            link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4605610"
+            link: "https://www.sciencedirect.com/science/article/abs/pii/S0360132324004451?dgcid=author"
         },
     ]
 
@@ -34,7 +31,7 @@ const HonorsAndActivities = () => {
                 'Leveraged acquired data analytics and insights from previous tasks to create comprehensive reports for the Category Manager, facilitating informed strategic decisions and enhancing commercial applications.'
             ],
             name: "Certificate",
-            doc: DA
+            doc: 'https://drive.google.com/file/d/1mjw6dl0gAPtUps-IhI1K8qLRt8litMtL/view?usp=sharing'
         },
         {
             title: "JPMorgan Chase & Co. Corporate Analyst Development Program (CADP) Virtual Experience",
@@ -45,7 +42,7 @@ const HonorsAndActivities = () => {
                 'Developed a PowerPoint presentation to communicate key ideas and talking points and tell a compelling story.'
             ],
             name: "Certificate",
-            doc: CADP
+            doc: 'https://drive.google.com/file/d/1_F6I7Cht3qZrzQLP0tZRRB59doqHHE1I/view?usp=sharing'
         },
         
         {
@@ -56,7 +53,7 @@ const HonorsAndActivities = () => {
                 'Conducted a sprint review to gather feedback on the Scrum’s work and a sprint retrospective to align on opportunities for improvement in future sprints.'
             ],
             name: "Certificate",
-            doc: Agile
+            doc: 'https://drive.google.com/file/d/1wtesOrm00W8k8fPo3sZK0NCwBTNcYPpb/view?usp=sharing'
         },
     ]
 
@@ -141,7 +138,7 @@ const HonorsAndActivities = () => {
                                     </ul>
                                 </div>
                                 <div style={{marginTop: 'auto', textAlign: 'center'}}>
-                                    <a href={certificate.doc} download className="btn btn-secondary">Download {certificate.name}</a>
+                                    <a href={certificate.doc} target='_blank' download className="btn btn-secondary">{certificate.name}</a>
                                 </div>
                             </div>
                         </div>

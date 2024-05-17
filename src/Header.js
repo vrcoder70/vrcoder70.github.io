@@ -28,20 +28,8 @@ function Header() {
       id: '#academic-projects'
     },
     {
-      name: 'Course work',
-      id: '#courses'
-    },
-    {
       name: 'Publication',
       id: '#Publication'
-    },
-    {
-      name: 'Poster Presentation',
-      id: '#Poster'
-    },
-    {
-      name: 'Certifications',
-      id: '#Certification'
     },
     {
       name: 'Contact',

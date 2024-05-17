@@ -1,8 +1,6 @@
 import React from 'react';
-import ASU from './ASU.jpg';
-import MSU from './MSU.png';
-import ASUTranscript from './Vraj Rana-Arizona State University-Transcript.pdf';
-import MSUTracscript from './Vraj Rana-The Maharaja Sayajirao University of Baroda-Transcript.pdf';
+import ASU from './image/ASU.jpg';
+import MSU from './image/MSU.png';
 
 function Education() {
     const degrees = [
@@ -12,7 +10,7 @@ function Education() {
             gpa: "3.7",
             startDate: "August 2022",
             endDate: "May 2024",
-            transcript : ASUTranscript,
+            transcript : 'https://drive.google.com/file/d/1-RNBadwd3hPXi1Fw_P2gX4yTYSjHG0Cz/view?usp=sharing',
             image: ASU
         },
         {
@@ -21,7 +19,7 @@ function Education() {
             gpa: "3.8",
             startDate: "July 2017",
             endDate: "May 2021",
-            transcript: MSUTracscript,
+            transcript: 'https://drive.google.com/file/d/1mM-HGfy83UvKlFPVkT_UAdGKrRi4doi1/view?usp=sharing',
             image: MSU
         }
     ];
@@ -54,7 +52,7 @@ function Education() {
                                 <h5 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{degree.universityName}</h5>
                                 <h5 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>GPA: {degree.gpa} </h5>
                                 <h6 style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>{degree.startDate} - {degree.endDate}</h6>
-                                <a href={degree.transcript} download className="btn btn-secondary">Transcript</a>
+                                <a href={degree.transcript} target='_blank' download className="btn btn-secondary">Transcript</a>
                             </div>
                             </div>
                         </div>
