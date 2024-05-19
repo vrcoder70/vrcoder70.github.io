@@ -10,6 +10,7 @@ import Footer from './Footer';
 import Skills from './Skills';
 import HonorsAndActivities from './HonorsAndActivities';
 import Courses from './CourseWork';
+// import ContactForm from './ContactForm';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <AcademicProjects />
         <Courses />
         <HonorsAndActivities />
+        {/* <ContactForm /> */}
       </div>
       <Footer />
     </div>
