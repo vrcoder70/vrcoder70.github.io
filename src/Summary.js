@@ -17,7 +17,7 @@ function Summary() {
             </p>
             <h2>Goals</h2>
             <p>My objective is to excel in the dynamic field of computer science. I am passionate about leveraging my skills to address intricate challenges and foster innovation. Eager to immerse myself in roles that offer exposure to leading-edge technologies and foster collaborative environments, I am committed to continuous learning and professional development. As the saying goes, 'Jack of all trades is a master of none, but oftentimes better than a master of one,' I aspire to maintain a diverse skill set and contribute effectively to your project.</p>
-            <a href='https://docs.google.com/document/d/1GbIX8uEY48AP0x3QWyHg_My5I_xRc_rPWrs4uvKe7no/edit?usp=sharing' target="_blank" download className="btn btn-secondary">Resume</a>
+            <a href='https://drive.google.com/file/d/1opjloHRtnwHGbGOqYeOqbHemzw5JZq5I/view?usp=drive_link' target="_blank" download className="btn btn-secondary">Resume</a>
           </div>
         </div>
       </div>
