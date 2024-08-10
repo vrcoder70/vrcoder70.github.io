@@ -12,7 +12,7 @@ function Header() {
       id: '#summary'
     },
     {
-      name: 'Professional Experience',
+      name: 'Experience',
       id: '#experience'
     },
     {
@@ -20,11 +20,15 @@ function Header() {
       id: '#skills'
     },
     {
+      name: 'Leetcode',
+      id:'https://leetcode.com/u/vrana7/',
+    },
+    {
       name: 'Education',
       id: '#education'
     },
     {
-      name: 'Academic Projects',
+      name: 'Projects',
       id: '#academic-projects'
     },
     {

@@ -23,7 +23,7 @@ const AcademicProjects = () => {
   ];
 
   return (
-    <div className="container">
+    <div className="container" id='academic-projects'>
       <div className="row">
                 <div className="col">
                     <h2 className="ml-3">Projects</h2>
