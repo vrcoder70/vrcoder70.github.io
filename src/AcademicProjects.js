@@ -1,124 +1,64 @@
 import React from 'react';
-import './AcademicProjects.css';
 
-function AcademicProjects() {
-  // Define project data
-  const projects = [
-    {  
-      name: "X-Ray Pneumonia Classification (Data Science/Machine Learning)",
-      status: "finished", 
-      link: "", 
-      description: [
-        'Implemented and trained deep learning models (ResNet, EfficientNet) for chest X-ray classification, achieving 96% accuracy in distinguishing normal and pneumonia cases.',
-        'Extended the project towards multi-class classification, differentiating Covid vs Non-covid and Viral vs Bacterial pneumonia from normal cases.',
-        'Gained expertise in computer vision techniques and deep neural network architectures for medical image analysis.'
-      ]
-    },
-    {  
-      name: "Database management and system implementation (Software Engineering)", 
-      status: "finished",
-      link: "", 
-      description: [
-        'Collaborated on developing a column store database within the MiniBase codebase, implementing Compressed BitMap Indexes, Batch Insert, Duplicate elimination, Querying, Index Joins and Delete records functionalities.',
-        'Enhanced data storage and retrieval efficiency through columnar storage design, showcasing strong database management skills.',
-        'Gained valuable experience working in a team environment on a software development project.'
-      ]
-    },
-    {  
-      name: "Multimedia Data Analysis and Feature Space Exploration (Software Engineering/Data Science)", 
-      status: "finished",
-      link: "", 
-      description: [
-        'Leveraged deep and machine learning algorithms to build a versatile image database for accurate image retrieval',
-        'Developed customizable image identification programs and a relevance feedback system, enhancing image processing capabilities.',
-        'Demonstrated proficiency in feature extraction, dimensionality reduction, and applying machine learning for multimedia querying tasks.'
-      ]
-    },
-    { 
-      name: "Cloud Computing (Software Engineering/Site Reliability Engineering)", 
-      status: "finished",
-      link: "https://github.com/vrcoder70/Cloud-Computing-Projects", 
-      description: [
-        'Deployed a cost-efficient, auto-scaling web application on AWS, utilizing EC2, SQS, S3, and CloudWatch.',
-        'Integrated AWS Lambda, SQS, and DynamoDB to build a smart classroom assistant powered by facial recognition technology.',
-        'Migrated the application to a hybrid cloud environment, optimizing costs and expanding cloud expertise with AWS and OpenStack.',
-
-      ]
-    },
-    { 
-      name: "Data Fusion and Classification for Glycemic Analysis (Data Science/Machine Learning)", 
-      status: "finished",
-      link: "https://github.com/vrcoder70/Glucose-Analysis-Meal-Detection-and-Meal-Clustering-and-Classification", 
-      description: [
-        'Synchronized and analyzed Insulin and CGM datasets, extracting features and insights relevant to diabetes management.',
-        'Trained machine learning models to effectively classify data based on meal and non-meal features, providing valuable insights into blood glucose dynamics.',
-        'Employed clustering techniques to analyze meal data and assess model accuracy using SSE, entropy, and purity metrics, facilitating better meal-related predictions.'
-      ]
-    },
-    { 
-      name: "EmoViz: Emotion Visualization from Tweets (Data Science)", 
-      status: "finished",
-      link: "https://github.com/vrcoder70/PEARL", 
-      description: [
-        'Developed an emotion inference solution for tweets using deep neural networks and natural language processing, enabling the prediction of human emotions from text data.',
-        'Built a data pipeline to efficiently process and analyze large volumes of tweet data, showcasing data engineering skills.',
-        'Created interactive visualizations using D3.js to enhance user engagement and effectively communicate emotional insights from tweets.'
-      ]
-    },
-    { 
-      name: "ChatifyPro (Software Engineering)", 
-      status: "finished",
-      link: "https://github.com/vrcoder70/Chat-Application", 
-      description: [
-        'Collaborated on building "ChatifyPro," a feature-rich Android chat application with functionalities like one-on-one and group chat, media sharing, video calls, and news feeds.',
-        'Utilized Android Studio and Firebase for real-time chat functionalities, authentication, and cloud storage, demonstrating mobile app development expertise.',
-        'Contributed to creating a user-friendly and feature-packed chat experience on the Android platform.'
-      ]
-    },
-    { 
-      name: "WP Enhance: Custom Plugin & Theme Development (Software Engineering)", 
-      status: "finished",
-      link: "https://github.com/vrcoder70/Wordpree-Theme-Plugin", 
-      description: [
-        'Developed a WordPress plugin with custom admin settings, meta-box integration, and flexible post-type and taxonomy management functionalities.',
-        'Designed a customizable WordPress theme featuring modern elements like infinite scrolling and diverse media content pages, along with custom headers and footers.',
-        'Showcased proficiency in WordPress development, creating a user-friendly and visually appealing website experience.'
-      ]
-    },
-    // Add more projects as needed
+const AcademicProjects = () => {
+  
+  const tableData = [
+    ['Unsupervised Learning Trading Strategy ', 'Data Science', 'Implemented an unsupervised learning trading strategy using K-Means clustering and efficient frontier optimization.', 'https://github.com/vrcoder70/Quant_Project/tree/main/Unsupervised%20ML%20Strategy'],
+    ['Twitter Sentiment-Based Trading Strategy', 'Data Science', 'Developed a trading strategy using Twitter sentiment data to identify high-engagement stocks.', 'https://github.com/vrcoder70/Quant_Project/tree/main/Investment%20Strategy%20Using%20Twitter%20Data'],
+    ['Intraday Volatility-Based Trading Strategy', 'Data Science', 'Created an intraday trading strategy utilizing volatility predictions and technical indicators.', 'https://github.com/vrcoder70/Quant_Project/tree/main/Intraday%20Strategy'],
+    ['Diversified Portfolio Strategy', 'Data Science', 'Designed a diversified portfolio strategy using a selection of low-correlation S&P 500 stocks.', 'https://github.com/vrcoder70/Quant_Project/tree/main/Quantitative%20Basic%20Strategy'],
+    ['Automated Portfolio Recommendation System', 'Data Science', 'Built an automated system to recommend stock purchases based on market data.', 'https://github.com/vrcoder70/Quant_Project/tree/main/Quantitative%20Basic%20Strategy'],
+    ['Momentum-Based Stock Selection Strategy', 'Data Science', 'Developed a momentum-based stock selection strategy using historical stock price data.', 'https://github.com/vrcoder70/Quant_Project/tree/main/Quantitative%20Basic%20Strategy'],
+    ['Value-Based Stock Selection Strategy', 'Data Science', 'Implemented a value-based stock selection strategy using fundamental financial metrics.', 'https://github.com/vrcoder70/Quant_Project/tree/main/SMA%20Strategy'],
+    ['X-Ray Pneumonia Classification', 'Data Science/Machine Learning', 'Trained deep learning models for chest X-ray classification, achieving 96% accuracy in distinguishing pneumonia cases.', ''],
+    ['Data Fusion and Classification for Glycemic Analysis', 'Data Science/Machine Learning', 'Analyzed insulin and CGM data, training models to classify meal-related blood glucose dynamics.', 'https://github.com/vrcoder70/Glucose-Analysis-Meal-Detection-and-Meal-Clustering-and-Classification'],
+    ['Multimedia Data Analysis and Feature Space Exploration', 'Data Science/Machine Learning ', 'Leveraged deep learning for image retrieval and developed a relevance feedback system.', ''],
+    ['EmoViz: Emotion Visualization from Tweets', 'Data Science', 'Developed an emotion inference solution for tweets using deep learning and NLP, with interactive visualizations.', 'https://github.com/vrcoder70/PEARL'],
+    ['Cloud Computing', 'Software Engineering/Site Reliability', 'Deployed an auto-scaling web application on AWS with smart classroom assistant features.', 'https://github.com/vrcoder70/Cloud-Computing-Projects'],
+    ['Cloud Computing', 'Full Stack Development', 'A full-stack project utilizing React for frontend and AWS for server-side deployment, including Lambda and EC2.', 'https://github.com/vrcoder70/Fovus-challenge-v1'],
+    ['Database Management and System Implementation', 'Software Engineering', 'Developed a column store database with features like Compressed BitMap Indexes and Querying.', 'https://github.com/vrcoder70/MiniJava-Database'],
+    ['Data Structures Implemented in C++', 'Data Structures & Algorithms', 'A collection of various data structures and sorting algorithms implemented in C++.', 'https://github.com/your-username/DataStructuresInCPP'],
+    ['ChatifyPro', 'Software Engineering', 'Built an Android chat application with features like media sharing and video calls.', 'https://github.com/vrcoder70/Chat-Application'],
+    ['WP Enhance: Custom Plugin & Theme Development', 'Software Engineering', 'Developed a WordPress plugin and customizable theme for enhanced website experience.', 'https://github.com/vrcoder70/Wordpree-Theme-Plugin']
   ];
 
-
   return (
-    <section id="academic-projects" className="py-2">
-      <div className="container">
-        <h2>Academic Projects</h2>
-        <div className="row">
-          {projects.map((project, index) => (
-            <div key={index} className="col-md-6 mb-1">
-              <div className={`project-card`} style={{minHeight: '295px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
-                  <h5>{project.name}</h5>
-                  <div className>
-                    <ul>
-                        {project.description.map((points, index) => (<li style={{textAlign: 'left'}} key={index}>{points}</li>))}
-                    </ul>
-                  </div>
-                  <p style={{ marginTop: 'auto', textAlign: 'center', visibility: project.link !== "" ? 'hidden' : 'visible' }}></p>
-                  {
-                    project.link !== "" && (
-                      <div style={{marginTop: 'auto', textAlign: 'center'}}>
-                        <a href={project.link} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">View Project</a>
-                      </div>
-                    )
+    <div className="container">
+      <div className="row">
+                <div className="col">
+                    <h2 className="ml-3">Projects</h2>
+                </div>
+                </div>
+      <div className="row"></div>
+      <table className="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Project Name</th>
+            <th scope="col">Category</th>
+            <th scope="col">Description</th>
+            <th scope='col'>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          {tableData.map((row, index) => (
+            <tr key={index}>
+              {row.map((cell, cellIndex) => (
+
+                <td key={cellIndex}>
+                  {cellIndex == 3 ? (
+                    <a href={cell} target="_blank" rel="noopener noreferrer">
+                      Link
+                    </a>
+                  ) : (<p>{cell}</p>)
                   }
-              </div>
-            </div>
+                </td>
+              ))}
+            </tr>
           ))}
-        </div>
-      </div>
-    </section>
+        </tbody>
+      </table>
+    </div>
   );
-  
-}
+};
 
 export default AcademicProjects;
