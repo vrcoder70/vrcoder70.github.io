@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7a11e8ed.css",
-    "main.js": "/static/js/main.a5fca8a0.js",
+    "main.js": "/static/js/main.1ef44045.js",
     "static/js/453.9b36bec1.chunk.js": "/static/js/453.9b36bec1.chunk.js",
     "static/media/MSU.png": "/static/media/MSU.190ad34245a76760ff08.png",
     "static/media/vrana7@asu.edu-3.jpg": "/static/media/vrana7@asu.edu-3.ac660c5959539b042cf1.jpg",
@@ -11,11 +11,11 @@
     "static/media/IT-Deskside.jpeg": "/static/media/IT-Deskside.7cb17edabfee35153eb6.jpeg",
     "index.html": "/index.html",
     "main.7a11e8ed.css.map": "/static/css/main.7a11e8ed.css.map",
-    "main.a5fca8a0.js.map": "/static/js/main.a5fca8a0.js.map",
+    "main.1ef44045.js.map": "/static/js/main.1ef44045.js.map",
     "453.9b36bec1.chunk.js.map": "/static/js/453.9b36bec1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a11e8ed.css",
-    "static/js/main.a5fca8a0.js"
+    "static/js/main.1ef44045.js"
   ]
 }
